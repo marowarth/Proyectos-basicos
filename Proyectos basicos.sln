@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Conversor", "01-Conversor", "{56158520-3407-45CA-AA30-095DE4A748E5}"
 EndProject
@@ -63,9 +63,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lector TXT", "Lector TXT\Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cronometro", "Cronometro\Cronometro.csproj", "{FE1DC1BC-0D13-4D77-B392-B879C3D504A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorTemperatura", "ConversorTemperatura\ConversorTemperatura.csproj", "{2E8AFFC0-ABB9-4054-A369-71EE661B66BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversorTemperatura", "ConversorTemperatura\ConversorTemperatura.csproj", "{2E8AFFC0-ABB9-4054-A369-71EE661B66BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeTareas", "ListaDeTareas\ListaDeTareas.csproj", "{1627DF17-189F-4078-BC08-DD6873152445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListaDeTareas", "ListaDeTareas\ListaDeTareas.csproj", "{1627DF17-189F-4078-BC08-DD6873152445}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16-SendEmail", "16-SendEmail", "{7656BDD8-DD40-465C-8CEF-409CBCDB914E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendEmail", "SendEmail\SendEmail.csproj", "{820EA968-7FF8-4F05-9219-3A2C864F800B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17-backgroundworker", "17-backgroundworker", "{86BD708C-91FD-4D8A-8AE9-9DBD08F9EDC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackGroundWorker", "BackGroundWorker\BackGroundWorker.csproj", "{D1A0B318-4963-4075-980A-02F08E36CC8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +145,14 @@ Global
 		{1627DF17-189F-4078-BC08-DD6873152445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1627DF17-189F-4078-BC08-DD6873152445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1627DF17-189F-4078-BC08-DD6873152445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820EA968-7FF8-4F05-9219-3A2C864F800B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820EA968-7FF8-4F05-9219-3A2C864F800B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820EA968-7FF8-4F05-9219-3A2C864F800B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820EA968-7FF8-4F05-9219-3A2C864F800B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A0B318-4963-4075-980A-02F08E36CC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A0B318-4963-4075-980A-02F08E36CC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A0B318-4963-4075-980A-02F08E36CC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A0B318-4963-4075-980A-02F08E36CC8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +174,8 @@ Global
 		{FE1DC1BC-0D13-4D77-B392-B879C3D504A6} = {25F5A3D9-7D21-4314-8DF2-A5B93C7BA174}
 		{2E8AFFC0-ABB9-4054-A369-71EE661B66BA} = {2CC2E242-C278-41A1-BD1A-61F8919853A9}
 		{1627DF17-189F-4078-BC08-DD6873152445} = {9DAC404F-BB90-4CE9-B4A8-DF5F13A7914B}
+		{820EA968-7FF8-4F05-9219-3A2C864F800B} = {7656BDD8-DD40-465C-8CEF-409CBCDB914E}
+		{D1A0B318-4963-4075-980A-02F08E36CC8F} = {86BD708C-91FD-4D8A-8AE9-9DBD08F9EDC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A3B52EC-A69A-4BC8-8986-78B3316B60BD}
