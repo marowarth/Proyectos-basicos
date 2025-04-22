@@ -29,7 +29,7 @@ client.Port = 587;
 client.EnableSsl = true;
 client.UseDefaultCredentials = false;
 client.Credentials =
-new NetworkCredential("marowarthYT@gmail.com", "ubup bbom xkkh tcht");
+new NetworkCredential("marowarthYT@gmail.com", "mipass");
 try
 {
     client.Send(message);
